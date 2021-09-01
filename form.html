@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>arthur</title>
+</head>
+<body>
+	<h1>Form</h1>
+
+	<h2>Exemplo de form de busca:</h2>
+	<form action="https://www.google.com.br/search">
+		<input type="search" name="q" placeholder="Palavras-chave" list="q_lista">
+		<datalist id="q_lista">
+			<option>cachorro</option>
+			<option>gato</option>
+			<option>galinha</option>
+			<option>oncinha</option>
+			<option>zebrinha</option>
+			<option>coelhinho</option>
+		</datalist>
+		<button>Buscar</button>
+	</form>
+
+	<h2>Exemplo de formulário de cadastro:</h2>
+	<form action="">
+		<div class="campo">
+			<label for="campo_nome">Nome:</label>
+			<input type="text" name="nome" id="campo_nome" value="Eldes" required pattern="^[A-Za-z]+$">
+			<span class="dica">Primeiro nome. Apenas letras sem espaço.</span>
+		</div>
+		
+		<div class="campo">
+			<label for="campo_sobrenome">Sobrenome:</label>
+			<input type="text" name="sobrenome" id="campo_sobrenome" required>
+			<span class="dica">Apenas o último nome, sem o nome do meio.</span>
+		</div>
+		
+		<div class="campo">
+			<label for="campo_email">E-mail:</label>
+			<input type="email" name="email" id="campo_email" required>
+			<span class="dica">Endereço de e-mail válido.</span>
+		</div>
+
+		<div class="campo">
+			<label for="campo_data_nascimento">Data de nascimento:</label>
+			<input type="date" name="data_nascimento" id="campo_data_nascimento">
+			<span class="dica">Data no padrão dd/mm/aaaa.</span>
+		</div>
+
+		<div class="campo">
+			<label for="campo_estado"></label>
+
+
+
+
+		</div>
+
+
+		<input type="submit" value="Cadastrar">
+		<input type="reset" value="Limpar">
+	</form>
+
+	<h2>Formulário de login:</h2>
+
+	<form action="">
+		<input type="text" placeholder="Nome de usuário">
+		<input type="password" placeholder="Senha">
+		<button>Login</button>
+	</form>
+</body>
+</html>

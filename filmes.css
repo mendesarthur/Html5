@@ -1,0 +1,35 @@
+body {
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: stretch;  
+}
+header {
+  height: 10px;
+  background-color: rgba(65, 58, 58, 0.719);
+  height: 200px;
+  align-items: stretch;
+}
+
+h1{
+  align-items: stretch;
+  justify-content:center;
+  
+  }
+
+
+
+nav {
+  background-color: rgb(170, 42, 67);
+  height: 50px;
+}
+
+p {
+  background-color: rgb(209, 187, 192);
+  height: 50px;
+}
+main {
+  background-color: rgb(170, 148, 152);
+  height: 50px;
+}
